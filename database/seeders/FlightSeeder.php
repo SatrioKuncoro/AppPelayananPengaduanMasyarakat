@@ -15,18 +15,20 @@ class FlightSeeder extends Seeder
      */
     public function run()
     {
-        $flights = [ 
-            [
-                // panggil nama protertiesnya dan berikan nilai
-                'id'    => 1,
-                'name'  => 'Pending'
-            ],
-            []
-         ];
-
-        // memanggil nama clas yang akaan diberi benih
-        // Flight
-        
-
+        // membuat data dummy
+            $flights = [
+                [
+                    // 'id'    => 1,
+                    'name'  => 'Domestik',
+                    'type'  => 0
+                ],
+                [
+                    // 'id'    => 2,
+                    'name'  => 'Bisnis',
+                    'type'  => 1
+                ]
+            ];
+        // memanggil nama class Flight
+        Flight::insert($flights);
     }
 }
