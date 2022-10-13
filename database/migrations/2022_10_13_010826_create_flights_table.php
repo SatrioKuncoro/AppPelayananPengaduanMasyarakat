@@ -8,16 +8,13 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     //deklarisi properties
-     protected $fillable =[];
      *
      * @return void
      */
     public function up()
     {
-        Schema::create('flight', function (Blueprint $table) {
+        Schema::create('flights', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
             $table->timestamps();
         });
     }
@@ -29,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('flight');
+        Schema::dropIfExists('flights');
     }
 };
