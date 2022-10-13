@@ -18,14 +18,12 @@ class FlightSeeder extends Seeder
         // membuat data dummy
             $flights = [
                 [
-                    // 'id'    => 1,
-                    'name'  => 'Domestik',
-                    'type'  => 0
+                    'name'      => 'Domestik',
+                    'type'      => 0
                 ],
                 [
-                    // 'id'    => 2,
-                    'name'  => 'Bisnis',
-                    'type'  => 1
+                    'name'      => 'Domestik',
+                    'type'      => 1
                 ]
             ];
         // memanggil nama class Flight
