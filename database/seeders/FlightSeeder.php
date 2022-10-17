@@ -19,11 +19,11 @@ class FlightSeeder extends Seeder
             $flights = [
                 [
                     'name'      => 'Domestik',
-                    'type'      => 0
+                    // 'type'      => 0S
                 ],
                 [
                     'name'      => 'Domestik',
-                    'type'      => 1
+                    // 'type'      => 1
                 ]
             ];
         // memanggil nama class Flight

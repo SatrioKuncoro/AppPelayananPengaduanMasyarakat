@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::table('flights', function (Blueprint $table) {
-            $table->integer('type')->after('id');
+            $table->integer('type')->default(0)->after('id');
         });
     }
 

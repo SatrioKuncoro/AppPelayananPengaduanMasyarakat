@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('flights', function (Blueprint $table) {
-            $table->string('name', 100)->after('id');
+        Schema::table('users', function (Blueprint $table) {
+            $table->foreignId('role_id');
         });
     }
 
@@ -25,7 +25,7 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('flights', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
             //
         });
     }
