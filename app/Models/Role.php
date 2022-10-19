@@ -9,8 +9,10 @@ class Role extends Model
 {
     use HasFactory;
 
+    // menjelaskan nama table yang dimiliki
     protected $table = 'roles';
 
+    // menjelaskan nama coloum yang dimiliki
     protected $fillable =[
         'name'
     ];
