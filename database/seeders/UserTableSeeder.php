@@ -14,26 +14,30 @@ class UserTableSeeder extends Seeder
         $users = [
             [
                 'id'        =>  1,
-                'name'    => 'Arief',
-                'email'      => 'arief21@gmail.com',
+                'name'      => 'Arief',
+                'role_id'   => 2,
+                'email'     => 'arief21@gmail.com',
                 'password'  => bcrypt('arief21')
             ],
             [
                 'id'        =>  2,
-                'name'    => 'Satrio Kuncoro',
-                'email'      => 'satrioKuncoro21@gmail.com',
+                'name'      => 'Satrio Kuncoro',
+                'role_id'   => 1,
+                'email'     => 'satrioKuncoro21@gmail.com',
                 'password'  => bcrypt('SatrioKuncoro')
             ],
             [
                 'id'        =>  3,
-                'name'    => 'Caca Cahyana',
-                'email'      => 'cahcaCahyana@gmail.com',
+                'name'      => 'Caca Cahyana',
+                'role_id'   => 2,
+                'email'     => 'cahcaCahyana@gmail.com',
                 'password'  => bcrypt('cahyana')
             ],
             [
                 'id'        =>  4,
-                'name'    => 'Sudirman',
-                'email'      => 'Sudirman21@gmail.com',
+                'name'      => 'Sudirman',
+                'role_id'   => 2,
+                'email'     => 'Sudirman21@gmail.com',
                 'password'  => bcrypt('sudirman21')
             ],
          ];
