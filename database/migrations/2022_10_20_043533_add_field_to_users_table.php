@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Role;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,8 +14,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('flights', function (Blueprint $table) {
-            $table->string('name', 100)->after('id');
+        Schema::table('users', function (Blueprint $table) {
+            // menambahkan coloum role_id
+
+            $table->foreignIdFor(Role::class);
         });
     }
 
@@ -25,7 +28,7 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('flights', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
             //
         });
     }
