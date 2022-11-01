@@ -18,7 +18,11 @@ class RoleSeeder extends Seeder
             ],
             [
                 'name'  => 'pelanggan'
-            ]
+            ],
+            [
+                'name'  => 'Masyarakat'
+            ],
+
         ];
 
         // memanggil dan model class Role

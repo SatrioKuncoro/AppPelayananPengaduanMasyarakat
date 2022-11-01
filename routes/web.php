@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+// Route::get('/', function(){
+//     return view('users.index',[ 'name' => 'Satrio Kuncoro']);
+// });
+
 // Route::get('/', function() {
 //     return  view('users.index', ['name' => 'Satrio Kuncoro']);
 // } );

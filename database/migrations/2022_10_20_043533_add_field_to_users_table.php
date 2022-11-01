@@ -17,7 +17,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             // menambahkan coloum role_id
 
-            $table->foreignIdFor(Role::class);
+            $table->foreignIdFor(Role::class)->after('email');
         });
     }
 
