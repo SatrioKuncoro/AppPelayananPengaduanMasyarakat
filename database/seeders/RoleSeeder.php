@@ -17,7 +17,7 @@ class RoleSeeder extends Seeder
                 'name'  => 'admin'
             ],
             [
-                'name'  => 'pelanggan'
+                'name'  => 'petugas'
             ],
             [
                 'name'  => 'Masyarakat'

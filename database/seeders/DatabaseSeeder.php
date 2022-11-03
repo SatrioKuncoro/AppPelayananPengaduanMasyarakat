@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             // FlightSeeder::class,
             RoleSeeder::class,
             UserSeeder::class,
-            // UserTableSeeder::class,
+            ComplaintSeeder::class,
         ]);
     }
 }

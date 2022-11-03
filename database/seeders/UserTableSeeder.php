@@ -13,32 +13,39 @@ class UserTableSeeder extends Seeder
 
         $users = [
             [
-                'id'        =>  1,
+                // 'id'        =>  1,
                 'name'      => 'Arief',
                 'role_id'   => 2,  // id dari table roles
                 'email'     => 'arief21@gmail.com',
                 'password'  => bcrypt('arief21')
             ],
             [
-                'id'        =>  2,
+                // 'id'        =>  2,
                 'name'      => 'Satrio Kuncoro',
                 'role_id'   => 1,  // id dari table roles
                 'email'     => 'satrioKuncoro21@gmail.com',
                 'password'  => bcrypt('SatrioKuncoro')
             ],
             [
-                'id'        =>  3,
+                // 'id'        =>  3,
                 'name'      => 'Caca Cahyana',
                 'role_id'   => 2,  // id dari table roles
                 'email'     => 'cahcaCahyana@gmail.com',
                 'password'  => bcrypt('cahyana')
             ],
             [
-                'id'        =>  4,
+                // 'id'        =>  4,
                 'name'      => 'Sudirman',
                 'role_id'   => 2,  // id dari table roles
                 'email'     => 'Sudirman21@gmail.com',
                 'password'  => bcrypt('sudirman21')
+            ],
+            [
+                // 'id'        =>  4,
+                'name'      => 'Sutisna',
+                'role_id'   => 3,  // id dari table roles
+                'email'     => 'sutisna@gmail.com',
+                'password'  => bcrypt('sutisna21')
             ],
          ];
 
