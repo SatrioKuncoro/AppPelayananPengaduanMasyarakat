@@ -10,4 +10,13 @@
 8. Memberi nilai pada setiap coloum didalam table
 	-> insert into nama_table (nama_coloum1, nama_coloum2) values ( nilai_coloum1, nilai_coloum2);
 9. Melihat semua nilai yang dimiliki pada table -> select * from nama_table;
-10. Menambahkan coloum didalam table 
+10. Menambahkan coloum didalam table
+
+Latihan SQL PART 2
+Date: 07-11-22
+1. Menampilkan semua table yang ada dalam database -> show tables;
+2. Menambahakan coloum dalam table -> alter table nama_table add column nama_coloum(nilai_column) sifat_coloum
+3. Mengupdate nilai pada column table -> update nama_table set nama_coloum='nilaibaru' kondisi
+4. Mengupdate nilai lebih dari 1 column pada table ->update nama_table set nama_coloum1='nilai_baru',
+    nama_coloum2='nilai_baru' kondisi
+5. Meganti nama coloum pada table ->
