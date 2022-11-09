@@ -9,9 +9,11 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <ul>
-                        @foreach ( $users as  $item)
-                            <li class="text-center"> {{ $item->name }} </li>
-                        @endforeach
+                        @forelse ($users as $item)
+                            <li class="text-center"> {{  $item->name }}  </li>
+                        @empty
+
+                        @endforelse
                 </ul>
             </div>
         </div>

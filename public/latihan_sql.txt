@@ -19,4 +19,6 @@ Date: 07-11-22
 3. Mengupdate nilai pada column table -> update nama_table set nama_coloum='nilaibaru' kondisi
 4. Mengupdate nilai lebih dari 1 column pada table ->update nama_table set nama_coloum1='nilai_baru',
     nama_coloum2='nilai_baru' kondisi
-5. Meganti nama coloum pada table ->
+5. Meganti nama coloum pada table -> ALTER TABLE nama_table CHANGE nama_column_lama nama_column_baru
+    tipe_data(nilai) sifat_coloum;
+6. menghapus column didalam table -> ALTER TABLE nama_table DROP nama;pl
