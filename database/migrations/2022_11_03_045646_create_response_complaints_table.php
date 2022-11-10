@@ -18,7 +18,7 @@ return new class extends Migration
         Schema::create('response_complaints', function (Blueprint $table) {
             $table->id();
             $table->string('response', 100);
-            $table->foreignIdFor(Complaint::class);
+            $table->foreignIdFor(Complaint::class)->onDeleteCascade();
             $table->foreignIdFor(User::class);
             $table->timestamps();
         });

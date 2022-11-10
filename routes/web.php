@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComplaintContoller;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,4 +39,5 @@ Route::middleware([
 
     // route users
     Route::resource('users', UserController::class);
+    Route::resource('complaints', ComplaintContoller::class);
 });
